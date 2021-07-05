@@ -1,0 +1,29 @@
+{
+  "name": "latale-guild-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/im-on-the-next-level/latale-guild-discord-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/im-on-the-next-level/latale-guild-discord-bot/issues"
+  },
+  "homepage": "https://github.com/im-on-the-next-level/latale-guild-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.14.0",
+    "typescript": "^4.3.5"
+  }
+}
